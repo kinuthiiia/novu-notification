@@ -5,7 +5,7 @@ import {
   useNotifications,
 } from "@novu/notification-center";
 
-import { APP_ID, getId } from "../pages/index.js";
+import { getId } from "../pages/index.js";
 
 function NovuBell({}) {
   return (
@@ -26,7 +26,7 @@ function NovuBell({}) {
         },
       }}
       subscriberId={getId()}
-      applicationIdentifier={APP_ID}
+      applicationIdentifier={process.env.APP_ID}
     >
       <PopoverNotificationCenter colorScheme="dark">
         {({ unseenCount }) => <NotificationBell unseenCount={unseenCount} />}
