@@ -2,20 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## About the Project
 
-A simple app demontrating a custom bottom navigation I've built using Mantine's AppShell and ActionIcon components.
-
-Important libraries:
-
-- MantineUI & Tailwind CSS (UI)
+A simple app demontrating a header with In App Notification capabilities I've built using [Novu](https://novu.co/)
 
 ## Running locally
 
 First , clone and install dependancies:
 
 ```bash
-git clone https://github.com/kinuthiiia/bottom-navigation.git
+git clone https://github.com/kinuthiiia/novu-notification.git
 
-cd bottom-navigation
+cd novu-notification
 
 npm i -S
 ```
